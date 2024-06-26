@@ -31,7 +31,7 @@ h3 {
     border-radius: 30px;
     margin-bottom: 50px;
 }
-#value {
+#inputBox {
   flex: 1;
   border: none;
   outline: none;
@@ -46,4 +46,36 @@ h3 {
     padding: 16px 30px;
     color: #fff;
     font-size: 16px;
+}
+ul li {
+    padding: 13px 8px 12px 50px;
+    position: relative;
+}
+ul li::before {
+    content: '';
+    background-image: url(/images/unchecked.png);
+    background-position: center;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+ul li.checked {
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    background-image: url(/images/checked.png);
+    background-position: center;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+ul li span {
+    float: right;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
 }
