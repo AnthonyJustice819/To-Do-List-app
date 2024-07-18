@@ -81,6 +81,9 @@ ul li.checked::before {
   position: absolute;
 }
 ul li span {
+  position: absolute;
+  right: 0;
+  top: 5px;
   float: right;
   font-size: 30px;
   font-weight: bolder;
