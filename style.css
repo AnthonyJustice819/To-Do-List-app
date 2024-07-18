@@ -88,10 +88,10 @@ ul li span {
 }
 @media screen and (max-width: 570px) {
   body {
-    padding: 5px;
+    padding: 20px;
   }
   .container {
-    padding: 20px;
+    padding: 5px;
   }
 }
 @media screen and (max-width: 370px) {
